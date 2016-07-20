@@ -1,8 +1,8 @@
 function getDim() {
 
 	var x = 0,
-			y = 0,
-			parents = [];
+	y = 0,
+	parents = [];
 
 	Array.from(document.getElementsByClassName('dim-check')).forEach(function(dimImg){
 		parents[y] = dimImg.closest('.dim-par');
